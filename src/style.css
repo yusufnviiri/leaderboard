@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f7f4f4;
+  text-align: center;
+}
+
+#game {
+  display: none;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 5px 15px;
+  margin-top: 2%;
+  display: flex;
+  text-align: left;
+}
+
+.headline {
+  display: flex;
+  font-size: 15px;
+  width: 100%;
+}
+
+.refresh {
+  justify-self: flex-end;
+  margin-left: 20px;
+}
+
+.item {
+  width: 100%;
+  font-size: large;
+  background-color: #fff;
+}
+
+.item1 {
+  width: 100%;
+  font-size: large;
+  background-color: #ddd;
+}
+
+.name,
+.score {
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+button {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 5px 10px;
+}
+
+.scores {
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 100%;
+  padding: 5px 0 5px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+.submit {
+  align-self: flex-end;
+  width: 40%;
+}
